@@ -1,1 +1,1 @@
-# Metal-Autograd
+# Metal-Autograd (MAG) 
