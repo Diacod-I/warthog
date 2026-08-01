@@ -1,0 +1,18 @@
+[package]
+name = "warthog"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "_warthog"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default=["cpu"]
+cpu = []
+metal = []
+
+[dependencies]
+pyo3 = { version = "0.29", features = ["extension-module"] } 
+
+

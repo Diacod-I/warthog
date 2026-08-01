@@ -1,3 +1,5 @@
-.venv-autograd/
+.venv-warthog/
 __pycache__/
 dist/
+target/
+*.so
