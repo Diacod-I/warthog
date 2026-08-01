@@ -1,6 +1,8 @@
-from .warthog import *
+"""Warthog: a deep learning library built from scratch in Python and Rust."""
 
+from importlib.metadata import version
 
-__doc__ = warthog.__doc__
-if hasattr(warthog, "__all__"):
-    __all__ = warthog.__all__
+from ._warthog import sum_as_string
+
+__version__ = version("warthog")
+__all__ = ["sum_as_string", "__version__"]
