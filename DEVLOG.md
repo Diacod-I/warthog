@@ -1,4 +1,4 @@
-# Build and Learning log 
+# Development and Learning log 
 ## 2026-08-04 (Learning
 ### Build & tooling
 - **PyO3 & maturin**: PyO3 is the in-code bridge (the `#[pymodule]`/`#[pyfunction]` macros + Python↔Rust type conversion); maturin is the build/packaging tool that drives Cargo to compile the Rust and wraps it as an installable wheel. Mantra: PyO3 makes the code *callable*, maturin makes the package *installable*.
